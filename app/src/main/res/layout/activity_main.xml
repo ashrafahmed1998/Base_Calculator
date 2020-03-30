@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/a0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#0D1859"
+            android:inputType="numberDecimal"
+            android:text="@string/zero"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#07124E"
+            android:inputType="numberDecimal"
+            android:text="@string/_0"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/plus"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/minus"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button_mul"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/mul"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button_div"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/div"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button_pow"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/pow"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2" />
+
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0F4912"
+            android:ems="10"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="@string/Answer"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
